@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "moduleResolution":"Node",
+    "module": "NodeNext"
+  },
+  "files": ["./src/index.ts"]
+}

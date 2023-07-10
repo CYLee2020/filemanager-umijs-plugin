@@ -1,0 +1,30 @@
+{
+  "name": "filemanager-umijs-plugin",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "type":"commonjs",
+  "license": "MIT",
+  "files": [
+    "package.json",
+    "dist/index.js",
+    "dist/index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+ 
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  },
+  "scripts": {
+    "build": "tsc  --declaration --skipLibCheck",
+    "test": "umi build"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "filemanager-webpack-plugin": "^8.0.0",
+    "umi": "^4.0.72"
+  }
+}

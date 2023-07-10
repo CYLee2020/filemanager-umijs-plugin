@@ -1,0 +1,5 @@
+{
+  "name": "filemanager-umijs-plugin",
+  "main": "index.js",
+  "type":"commonjs"
+}
